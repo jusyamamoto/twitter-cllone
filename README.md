@@ -1,4 +1,4 @@
-# twitter-cllone
+# twitter-clone
 私のweb開発練習の一環としてtwitter-cloneを作ってみることにしました。
 
 # 開発環境
