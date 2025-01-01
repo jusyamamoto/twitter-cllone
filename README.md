@@ -58,6 +58,7 @@ db設計には以下のサイトを参考にしました。
 | updated_at | datetime | not null |
 
 # ER図
+![ER図](https://github.com/user-attachments/assets/93e81d86-3745-48db-901a-749ec767059d)
 
 
 # ディレクトリ構成
