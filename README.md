@@ -16,6 +16,7 @@ db設計には以下のサイトを参考にしました。
 | :---: | :---: | :---: |
 | id | int | primary key, auto_increment |
 | user_name | varchar(50) | not null, unique |
+| password | varchar(20) | not null |
 | created_at | datetime | not null |
 | updated_at | datetime | not null |
 
