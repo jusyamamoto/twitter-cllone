@@ -33,7 +33,7 @@ db設計には以下のサイトを参考にしました。
 | :---: | :---: | :---: |
 | id | int | primary key, auto_increment |
 | user_id | int | foreign key(users) , not null |
-| content | varchar(200) |  , not null |
+| content | varchar(200) | not null |
 | created_at | datetime | not null |
 | updated_at | datetime | not null |
 
@@ -55,7 +55,7 @@ db設計には以下のサイトを参考にしました。
 | created_at | datetime | not null |
 | updated_at | datetime | not null |
 
-#ER図
+# ER図
 
 
 # ディレクトリ構成
