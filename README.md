@@ -9,6 +9,7 @@
 
 # db設計
 db設計には以下のサイトを参考にしました。
+<br>
 [X（旧Twitter）のデータベース設計をER図で可視化する](https://qiita.com/at-sacai/items/6ec62eac0b823da9aa9f#3-%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E3%81%AE%E8%A9%B3%E7%B4%B0%E8%A8%AD%E8%A8%88)
 
 ## users
