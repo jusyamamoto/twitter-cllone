@@ -62,5 +62,10 @@ db設計には以下のサイトを参考にしました。
 
 
 # ディレクトリ構成
-
+├--.git
+├--client
+├--server
+├--.gitignore
+├--docker-compose.yml
+└── README.md
 
