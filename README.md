@@ -16,8 +16,8 @@ db設計には以下のサイトを参考にしました。
 | カラム名 | データ型 | 制約 |
 | :---: | :---: | :---: |
 | id | int | primary key, auto_increment |
-| user_name | varchar(50) | not null, unique |
-| password | varchar(20) | not null |
+| user_name | varchar | not null, unique |
+| passhash | varchar | not null |
 | created_at | datetime | not null |
 | updated_at | datetime | not null |
 
@@ -35,7 +35,7 @@ db設計には以下のサイトを参考にしました。
 | :---: | :---: | :---: |
 | id | int | primary key, auto_increment |
 | user_id | int | foreign key(users) , not null |
-| content | varchar(200) | not null |
+| content | varchar | text |
 | created_at | datetime | not null |
 | updated_at | datetime | not null |
 
@@ -58,14 +58,14 @@ db設計には以下のサイトを参考にしました。
 | updated_at | datetime | not null |
 
 # ER図
-![ER図](https://github.com/user-attachments/assets/93e81d86-3745-48db-901a-749ec767059d)
-
+![ER図](https://github.com/user-attachments/assets/0419fb79-b53d-43ca-b20e-d193e633f9ea)
 
 # ディレクトリ構成
+```
 ├--.git
 ├--client
 ├--server
 ├--.gitignore
 ├--docker-compose.yml
 └── README.md
-
+```
